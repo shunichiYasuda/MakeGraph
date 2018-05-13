@@ -2,6 +2,7 @@
 
 <?import javafx.scene.canvas.Canvas?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.ToolBar?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
@@ -18,7 +19,8 @@
                   <Button fx:id="quitBtn" layoutX="66.0" layoutY="10.0" mnemonicParsing="false" onAction="#quitAction" text="Quit" />
               </items>
             </ToolBar>
-            <Canvas fx:id="canvas" height="351.0" layoutY="35.0" width="419.0" />
+            <Canvas fx:id="canvas" height="289.0" layoutY="97.0" width="419.0" />
+            <TextArea fx:id="log" layoutY="35.0" prefHeight="63.0" prefWidth="419.0" />
          </children>
       </Pane>
    </children>
