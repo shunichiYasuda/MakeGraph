@@ -14,11 +14,11 @@
             <ToolBar prefHeight="33.0" prefWidth="419.0">
               <items>
                 <Button mnemonicParsing="false" text="open.. " />
-                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Exec..." />
-                  <Button layoutX="66.0" layoutY="10.0" mnemonicParsing="false" text="Quit" />
+                  <Button fx:id="execBtn" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#execAction" text="Exec..." />
+                  <Button fx:id="quitBtn" layoutX="66.0" layoutY="10.0" mnemonicParsing="false" onAction="#quitAction" text="Quit" />
               </items>
             </ToolBar>
-            <Canvas height="351.0" layoutY="35.0" width="419.0" />
+            <Canvas fx:id="canvas" height="351.0" layoutY="35.0" width="419.0" />
          </children>
       </Pane>
    </children>
